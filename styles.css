@@ -1,0 +1,38 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.calculator{
+    width: 300px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.display{
+    margin: 10px;
+    height: 90px;
+    border: 1px solid black;;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 30px;
+}
+
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px;
+}
+
+.buttons button{
+    width: 90px;
+    height:90px;
+    margin: 1px;
+}
+
+#equal,#clear{
+    width: 135px;
+}
